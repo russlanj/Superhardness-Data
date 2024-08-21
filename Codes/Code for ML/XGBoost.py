@@ -10,7 +10,7 @@ df.head()
 df.describe()
 
 #Importing full data to obtain the hardness values 
-df2 = pd.read_csv('full.csv')
+df2 = pd.read_csv('Full Data.csv')
 Y=df2['Hardness']
 
 #Scaling the data using a standard scaler
